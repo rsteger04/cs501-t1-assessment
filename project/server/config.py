@@ -1,7 +1,7 @@
 import os
 basedir = os.path.abspath(os.path.dirname(__file__))
-postgres_local_base = 'sqlite:///'
-database_name = 'diagnostic'
+postgres_local_base = 'postgres://ujptdtvfwwtnmt:6fb9ebe38b5f5d5d4f645ecd1e71274e517c8cf497983e6d1a8408ece5524e21@ec2-35-153-91-18.compute-1.amazonaws.com:5432/'
+database_name = 'dg00dafkjq7ni'
 
 
 class BaseConfig:
